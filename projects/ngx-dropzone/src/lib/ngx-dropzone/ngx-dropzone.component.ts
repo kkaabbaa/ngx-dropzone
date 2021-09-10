@@ -145,6 +145,7 @@ export class NgxDropzoneComponent {
   }
 
   _onFilesSelected(event) {
+    console.log('_onFilesSelected');
     const files: FileList = event.target.files;
     this.handleFileDrop(files);
 

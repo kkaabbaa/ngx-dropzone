@@ -1320,6 +1320,7 @@
         }, {
           key: "_onFilesSelected",
           value: function _onFilesSelected(event) {
+            console.log('_onFilesSelected');
             var files = event.target.files;
             this.handleFileDrop(files); // Reset the native file input element to allow selecting the same file again
 
